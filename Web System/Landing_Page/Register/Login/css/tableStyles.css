@@ -1,0 +1,25 @@
+.order-history-container {
+    margin: 20px auto;
+    max-width: 800px;
+ }
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+ }
+
+ table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+ }
+
+ table th {
+    background-color: #f2f2f2;
+ }
+
+ .no-orders {
+    text-align: center;
+    font-style: italic;
+ }

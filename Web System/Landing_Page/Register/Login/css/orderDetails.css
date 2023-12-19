@@ -1,0 +1,136 @@
+/* Assuming this is your orderDetails.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  .header {
+    background: linear-gradient(to right, #f9c596 0%, #fc5d9d 100%);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .header .flex {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header .flex .logo {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header .flex .navbar a {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header .flex .navbar a:hover {
+    color: yellow;
+  }
+  
+  .header .flex .navbar .logout {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .header .flex .cart {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header .flex .cart:hover {
+    color: yellow;
+  }
+  
+  .header .flex .cart span {
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #2980b9;
+    font-size: 2rem;
+  }
+  
+  .order-message-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-container {
+    text-align: center;
+  }
+  
+  .message-container h3 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .order-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  .order-details th,
+  .order-details td {
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #333;
+  }
+  
+  .order-details tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  .customer-details {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .customer-details td {
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 1.2rem 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+
+  
